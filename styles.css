@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: Inter;
+    background-color: #C2E2F4;
+  }
+
+nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 56px;
+    background: #ffffff;
+    box-shadow: 0 5px 10px rgba(10, 119, 182, 0.1);
+  }
+
+nav .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    max-width: 100%;
+    background: #ffffff;
+    margin: auto;
+}
+
+nav .navbar .menu{
+    display: flex;
+}
+
+.navbar .menu li{
+    list-style: none;
+    margin-right: 20px;
+}
+
+nav .navbar .logo a{
+   width: 139;
+   height: 56;
+   margin-left: 60px;
+   color: #14376A;
+   font-size: 24px;
+   font-family: Inter;
+   font-style: italic;
+   font-weight: 600;
+   letter-spacing: 0.96px;
+   word-wrap: break-word;
+   text-align: center;
+   text-decoration: none;
+}
+
+
+
