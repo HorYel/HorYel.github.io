@@ -2,6 +2,8 @@ body, html {
     width: 100%;
     margin: 0;
     padding: 0;
+    justify-content: center;
+    align-items: center;
     box-sizing: border-box;
     font-family: Inter;
     background-color: #C2E2F4;
@@ -49,6 +51,28 @@ nav .navbar .logo a{
    word-wrap: break-word;
    text-align: center;
    text-decoration: none;
+}
+
+.proj {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  z-index: 1;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 @media only screen and (max-width: 600px) {
