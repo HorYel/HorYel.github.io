@@ -1,0 +1,166 @@
+@import "./reset.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+    font-size: 14px;
+    background-color: #fff;
+}
+
+.container {
+    max-width: 1230px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+/* header */ 
+
+.header {
+    padding-top: 46px;
+    background-color: #C2E2F4;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-bottom: 76px;
+}
+
+.logo {
+    position: relative;
+    padding: 10px 12px 3px 0;
+    font-weight: 700;
+    line-height: 1;
+    font-size: 32px;
+    color: #000;
+}
+
+.logo::after{
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    content: '';
+    display: block;
+    width: 8px;
+    height: 8px;
+    background-color: #1ea312;
+    border-radius: 50%;
+}
+
+.nav-list {
+    display: flex;
+    column-gap: 50px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.nav-button {
+    display: none;
+}
+
+.nav-link {
+    color: #000;
+}
+
+.nav-link.active {
+    color: #606060;
+}
+
+/* header content */
+
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+    padding: 0 0 20px 0;
+}
+
+.header-content {
+    max-width: 500px;
+    margin-top: 124px;
+}
+
+.header-heading {
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 44px;
+}
+
+.header-content p {
+    line-height: 2;
+}
+
+.header-content p a {
+    color: blue;
+}
+
+.header-content p a:hover {
+    text-decoration: underline;
+}
+
+.header-img img {
+    max-width: 494px;
+}
+
+.services{
+    padding: 120px 0;
+}
+
+.services-row{
+    display: flex;
+    row-gap: 60px;
+    column-gap: 30px;
+    flex-wrap: wrap;
+}
+
+.services-card{
+    flex: 1 1 0;
+    min-width: 250px;
+}
+
+.services-card-title{
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.services-card p{
+    line-height: 2;
+}
+
+.contacts{
+    padding: 90px 0;
+    text-align: center;
+}
+
+.contacts-title{
+    margin-bottom: 40px;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.contacts-content{
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.contacts-social{
+    display: flex;
+    justify-content: center;
+    column-gap: 120px;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.contacts-footer{
+    font-size: 20px;
+    color: #828282;
+}
+
+.contacts-social a img {
+    filter: brightness(15%);
+}
